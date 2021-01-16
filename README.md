@@ -1,4 +1,4 @@
-# WeApi CheckApp - Projeto de Conclusão de Curso.
+# WeApi MosaicoApp - Projeto do hackathon CCR.
 
  - Este projeto é uma API para o Aplicativo mobile, ambos foram desenvolvido com próposito de solucionar um problema durante um Hackathon da Shawee com a CCR.
 
