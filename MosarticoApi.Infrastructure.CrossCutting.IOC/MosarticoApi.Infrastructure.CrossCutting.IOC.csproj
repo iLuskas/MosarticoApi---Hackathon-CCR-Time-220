@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mosartico.Domain.Services\MosarticoApi.Domain.Services.csproj" />
+    <ProjectReference Include="..\MosarticoApi.Infrastructure.Repository\MosarticoApi.Infrastructure.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

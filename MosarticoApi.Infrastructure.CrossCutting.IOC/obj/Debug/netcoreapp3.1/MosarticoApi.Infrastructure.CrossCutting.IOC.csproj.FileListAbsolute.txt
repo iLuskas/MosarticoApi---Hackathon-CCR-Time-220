@@ -1,0 +1,5 @@
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.IOC\bin\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.IOC.deps.json
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.IOC\bin\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.IOC.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.IOC\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.IOC.csprojAssemblyReference.cache
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.IOC\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.IOC.AssemblyInfoInputs.cache
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.IOC\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.IOC.AssemblyInfo.cs

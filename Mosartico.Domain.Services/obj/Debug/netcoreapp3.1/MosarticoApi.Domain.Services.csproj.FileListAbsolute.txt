@@ -1,0 +1,6 @@
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\Mosartico.Domain.Services\bin\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\Mosartico.Domain.Services\bin\Debug\netcoreapp3.1\MosarticoApi.Domain.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\Mosartico.Domain.Services\bin\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\Mosartico.Domain.Services\obj\Debug\netcoreapp3.1\MosarticoApi.Domain.Services.csprojAssemblyReference.cache
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\Mosartico.Domain.Services\obj\Debug\netcoreapp3.1\MosarticoApi.Domain.Services.AssemblyInfoInputs.cache
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\Mosartico.Domain.Services\obj\Debug\netcoreapp3.1\MosarticoApi.Domain.Services.AssemblyInfo.cs
