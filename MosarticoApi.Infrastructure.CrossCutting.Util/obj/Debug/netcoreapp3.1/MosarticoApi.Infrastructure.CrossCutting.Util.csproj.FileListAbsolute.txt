@@ -1,0 +1,9 @@
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\bin\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.deps.json
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\bin\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\bin\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.pdb
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.csprojAssemblyReference.cache
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.AssemblyInfoInputs.cache
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.AssemblyInfo.cs
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.csproj.CoreCompileInputs.cache
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.pdb

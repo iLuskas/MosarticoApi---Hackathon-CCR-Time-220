@@ -1,0 +1,12 @@
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\bin\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.deps.json
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\bin\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\bin\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.pdb
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\bin\Debug\netcoreapp3.1\MosarticoApi.Domain.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\bin\Debug\netcoreapp3.1\MosarticoApi.Domain.pdb
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\obj\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.csprojAssemblyReference.cache
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\obj\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\obj\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.AssemblyInfo.cs
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\obj\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\obj\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.csproj.CopyComplete
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\obj\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\obj\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.pdb

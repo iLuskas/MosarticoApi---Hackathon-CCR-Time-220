@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Mosartico.Domain.Services\MosarticoApi.Domain.Services.csproj" />
+    <ProjectReference Include="..\MosarticoApi.Application\MosarticoApi.Application.csproj" />
     <ProjectReference Include="..\MosarticoApi.Infrastructure.Repository\MosarticoApi.Infrastructure.Repository.csproj" />
   </ItemGroup>
 
