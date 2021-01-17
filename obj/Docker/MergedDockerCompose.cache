@@ -1,0 +1,17 @@
+services:
+  mosarticoapi:
+    build:
+      context: C:\Users\Lucaum-PC\source\repos\MosarticoApi
+      dockerfile: MosarticoApi/Dockerfile
+    container_name: mosarticoapi
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: mosarticoapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\Lucaum-PC\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Lucaum-PC\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

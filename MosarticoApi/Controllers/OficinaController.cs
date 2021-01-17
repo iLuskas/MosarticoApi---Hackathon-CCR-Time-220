@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MosarticoApi.Application.DTO.DTOs;
@@ -24,6 +25,7 @@ namespace MosarticoApi.Controllers
         // Get All Oficina
         //</summary>
         [HttpGet]
+        [Authorize]
         public ActionResult<IEnumerable<OficinasDTO>> Get()
         {
             try
@@ -42,6 +44,7 @@ namespace MosarticoApi.Controllers
         // GetById Oficina
         //</summary>
         [HttpGet("{id}")]
+        [Authorize]
         public ActionResult<OficinasDTO> Get(int id)
         {
             try
@@ -60,6 +63,7 @@ namespace MosarticoApi.Controllers
         // Insert new Oficina
         //</summary>
         [HttpPost]
+        [Authorize]
         public ActionResult Post([FromBody] OficinasDTO oficinaDTO)
         {
             try
@@ -81,6 +85,7 @@ namespace MosarticoApi.Controllers
         // Update Oficina
         //</summary>
         [HttpPut]
+        [Authorize]
         public ActionResult Put([FromBody] OficinasDTO oficinaDTO)
         {
             try
@@ -102,6 +107,7 @@ namespace MosarticoApi.Controllers
         // Delete Oficina
         //</summary>
         [HttpDelete]
+        [Authorize]
         public ActionResult Delete([FromBody] OficinasDTO oficinaDTO)
         {
             try

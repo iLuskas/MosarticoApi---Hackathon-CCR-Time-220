@@ -1687,6 +1687,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "MosarticoApi.Application.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/MosarticoApi.Application.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MosarticoApi.Application.DTO.dll": {}
+        }
+      },
       "MosarticoApi.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1701,6 +1711,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "MosarticoApi.Application.DTO": "1.0.0",
           "MosarticoApi.Domain": "1.0.0"
         },
         "compile": {
@@ -6183,6 +6194,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "MosarticoApi.Application.DTO/1.0.0": {
+      "type": "project",
+      "path": "../MosarticoApi.Application.DTO/MosarticoApi.Application.DTO.csproj",
+      "msbuildProject": "../MosarticoApi.Application.DTO/MosarticoApi.Application.DTO.csproj"
+    },
     "MosarticoApi.Domain/1.0.0": {
       "type": "project",
       "path": "../MosarticoApi.Domain/MosarticoApi.Domain.csproj",
@@ -6235,6 +6251,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj": {
               "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj"
@@ -6253,6 +6270,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -6268,7 +6286,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

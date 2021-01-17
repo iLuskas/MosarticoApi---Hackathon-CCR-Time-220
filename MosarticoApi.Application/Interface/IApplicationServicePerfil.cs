@@ -10,6 +10,7 @@ namespace MosarticoApi.Application.Interface
         void Add(PerfilDTO obj);
         PerfilDTO GetById(int id);
         IEnumerable<PerfilDTO> GetAll();
+        IEnumerable<PerfilDTO> GetAllPerfil();
         void Update(PerfilDTO obj);
         void Remove(PerfilDTO obj);
         void Dispose();

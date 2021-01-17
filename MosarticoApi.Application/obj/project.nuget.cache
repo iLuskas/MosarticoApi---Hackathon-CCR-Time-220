@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "DrhzFrDJa5opg/n4UFrsC8WG0A+g1+97FXh64xCnFJ38kukDKwtx3p44IYymiYTjML3HZw1VBf4NHhcvxjOODg==",
+  "dgSpecHash": "iq1ARCbYsKfGK5VrJBGXVP69PoM08B+dk+6FDePNyfrYiVqXQHw52PJ3eQjJIxX7MbnnrDAxHedE2iTtIezjUA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application\\MosarticoApi.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucaum-PC\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Lucaum-PC\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\Lucaum-PC\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+    "C:\\Users\\Lucaum-PC\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.8.0\\microsoft.identitymodel.jsonwebtokens.6.8.0.nupkg.sha512",
+    "C:\\Users\\Lucaum-PC\\.nuget\\packages\\microsoft.identitymodel.logging\\6.8.0\\microsoft.identitymodel.logging.6.8.0.nupkg.sha512",
+    "C:\\Users\\Lucaum-PC\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
+    "C:\\Users\\Lucaum-PC\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
+    "C:\\Users\\Lucaum-PC\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\Lucaum-PC\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

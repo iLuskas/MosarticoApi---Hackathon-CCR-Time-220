@@ -8,6 +8,15 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
 COPY ["MosarticoApi/MosarticoApi.csproj", "MosarticoApi/"]
+COPY ["MosarticoApi.Application/MosarticoApi.Application.csproj", "MosarticoApi.Application/"]
+COPY ["MosarticoApi.Domain/MosarticoApi.Domain.csproj", "MosarticoApi.Domain/"]
+COPY ["MosarticoApi.Application.DTO/MosarticoApi.Application.DTO.csproj", "MosarticoApi.Application.DTO/"]
+COPY ["MosarticoApi.Infrastructure.CrossCutting.Util/MosarticoApi.Infrastructure.CrossCutting.Util.csproj", "MosarticoApi.Infrastructure.CrossCutting.Util/"]
+COPY ["MosarticoApi.Domain.Core/MosarticoApi.Domain.Core.csproj", "MosarticoApi.Domain.Core/"]
+COPY ["MosarticoApi.Infrastructure.CrossCutting.IOC/MosarticoApi.Infrastructure.CrossCutting.IOC.csproj", "MosarticoApi.Infrastructure.CrossCutting.IOC/"]
+COPY ["MosarticoApi.Infrastructure.Repository/MosarticoApi.Infrastructure.Repository.csproj", "MosarticoApi.Infrastructure.Repository/"]
+COPY ["MosarticoApi.Infrastructure.Data/MosarticoApi.Infrastructure.Data.csproj", "MosarticoApi.Infrastructure.Data/"]
+COPY ["Mosartico.Domain.Services/MosarticoApi.Domain.Services.csproj", "Mosartico.Domain.Services/"]
 RUN dotnet restore "MosarticoApi/MosarticoApi.csproj"
 COPY . .
 WORKDIR "/src/MosarticoApi"
@@ -19,8 +28,8 @@ RUN dotnet publish "MosarticoApi.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "MosarticoApi.dll"]
 
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
-ENV PATH $PATH:/root/.dotnet/tools
-RUN dotnet tool install -g dotnet-ef --version 3.1.1
+RUN  useradd -m idollynho
+USER idollynho
+
+CMD ASPNETCORE_URLS="http://*:$PORT" dotnet MosarticoApi.dll

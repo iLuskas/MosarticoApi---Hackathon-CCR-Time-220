@@ -1744,6 +1744,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "MosarticoApi.Application.DTO": "1.0.0",
           "MosarticoApi.Domain": "1.0.0"
         },
         "compile": {
@@ -1772,6 +1773,10 @@
       "MosarticoApi.Infrastructure.CrossCutting.Util/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MosarticoApi.Domain": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "6.8.0"
+        },
         "compile": {
           "bin/placeholder/MosarticoApi.Infrastructure.CrossCutting.Util.dll": {}
         },
@@ -6385,6 +6390,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\Mosartico.Domain.Services\\MosarticoApi.Domain.Services.csproj": {
               "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\Mosartico.Domain.Services\\MosarticoApi.Domain.Services.csproj"
@@ -6406,6 +6412,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Autofac": {
             "target": "Package",
@@ -6427,7 +6434,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

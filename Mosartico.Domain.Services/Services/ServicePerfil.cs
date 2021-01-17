@@ -1,4 +1,5 @@
-﻿using MosarticoApi.Domain.Core.Interfaces.Repositorys;
+﻿using MosarticoApi.Application.DTO.DTOs;
+using MosarticoApi.Domain.Core.Interfaces.Repositorys;
 using MosarticoApi.Domain.Core.Interfaces.Services;
 using MosarticoApi.Domain.Models;
 using System;
@@ -14,6 +15,11 @@ namespace MosarticoApi.Domain.Services.Services
         public ServicePerfil(IRepositoryPerfil repositoryPerfil) : base(repositoryPerfil)
         {
             _repositoryPerfil = repositoryPerfil;
+        }
+
+        public IEnumerable<Perfil> GetAllPerfil()
+        {
+            return _repositoryPerfil.GetAllPerfil();
         }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MosarticoApi.Application.DTO.DTOs;
@@ -24,6 +25,7 @@ namespace MosarticoApi.Controllers
         // Get All Artes
         //</summary>
         [HttpGet]
+        [Authorize]
         public ActionResult<IEnumerable<ArteDTO>> Get()
         {
             try
@@ -42,6 +44,7 @@ namespace MosarticoApi.Controllers
         // GetById Arte
         //</summary>
         [HttpGet("{id}")]
+        [Authorize]
         public ActionResult<ArteDTO> Get(int id)
         {
             try
@@ -60,6 +63,7 @@ namespace MosarticoApi.Controllers
         // Insert new Arte
         //</summary>
         [HttpPost]
+        [Authorize]
         public ActionResult Post([FromBody] ArteDTO ArteDTO)
         {
             try
@@ -81,6 +85,7 @@ namespace MosarticoApi.Controllers
         // Update Arte
         //</summary>
         [HttpPut]
+        [Authorize]
         public ActionResult Put([FromBody] ArteDTO ArteDTO)
         {
             try
@@ -102,6 +107,7 @@ namespace MosarticoApi.Controllers
         // Delete Arte
         //</summary>
         [HttpDelete]
+        [Authorize]
         public ActionResult Delete([FromBody] ArteDTO ArteDTO)
         {
             try

@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj": {
                 "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj"
@@ -48,6 +49,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.Extensions.Options": {
               "target": "Package",
@@ -73,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -103,6 +105,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -114,6 +117,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -129,7 +133,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -159,6 +163,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application.DTO\\MosarticoApi.Application.DTO.csproj": {
                 "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application.DTO\\MosarticoApi.Application.DTO.csproj"
@@ -183,6 +188,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -204,7 +210,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -234,7 +240,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application.DTO\\MosarticoApi.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application.DTO\\MosarticoApi.Application.DTO.csproj"
+              },
               "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj": {
                 "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj"
               }
@@ -249,6 +259,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -264,7 +275,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -294,6 +305,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -305,6 +317,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -320,7 +333,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -350,6 +363,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\Mosartico.Domain.Services\\MosarticoApi.Domain.Services.csproj": {
                 "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\Mosartico.Domain.Services\\MosarticoApi.Domain.Services.csproj"
@@ -371,6 +385,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Autofac": {
               "target": "Package",
@@ -392,7 +407,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -422,7 +437,12 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -433,6 +453,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -448,7 +475,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -478,6 +505,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj": {
                 "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj"
@@ -493,6 +521,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -542,7 +571,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -572,6 +601,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj": {
                 "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj"
@@ -590,6 +620,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -605,7 +636,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -635,6 +666,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application\\MosarticoApi.Application.csproj": {
                 "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application\\MosarticoApi.Application.csproj"
@@ -653,6 +685,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -683,6 +716,12 @@
               "version": "[3.1.11, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.2, )"
             },
@@ -743,7 +782,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -39,6 +39,13 @@ namespace MosarticoApi.Application.Service
             return _mapper.Map<IEnumerable<PerfilDTO>>(listObjEntity);
         }
 
+        public IEnumerable<PerfilDTO> GetAllPerfil()
+        {
+            var listObjEntity = _servicePerfil.GetAllPerfil();
+
+            return _mapper.Map<IEnumerable<PerfilDTO>>(listObjEntity);
+        }
+
         public PerfilDTO GetById(int id)
         {
             var ObjEntity = _servicePerfil.GetById(id);

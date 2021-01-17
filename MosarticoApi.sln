@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosarticoApi", "MosarticoApi\MosarticoApi.csproj", "{BE36C5FB-1B6F-4798-A5BA-2364187FF5B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MosarticoApi", "MosarticoApi\MosarticoApi.csproj", "{BE36C5FB-1B6F-4798-A5BA-2364187FF5B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0 Presentation", "1.0 Presentation", "{BB57737D-73DA-4045-ACC9-C2EBF93068F8}"
 EndProject
@@ -13,27 +13,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 Domain", "3.0 Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.0 Infrastructure", "4.0 Infrastructure", "{9CB620AC-CDC7-43F6-98E9-609F59A3EEAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosarticoApi.Domain", "MosarticoApi.Domain\MosarticoApi.Domain.csproj", "{86B11650-634C-4663-ABB8-8192CC5E36C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MosarticoApi.Domain", "MosarticoApi.Domain\MosarticoApi.Domain.csproj", "{86B11650-634C-4663-ABB8-8192CC5E36C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosarticoApi.Domain.Core", "MosarticoApi.Domain.Core\MosarticoApi.Domain.Core.csproj", "{41ABA238-3372-4965-8087-8AC99CE6559F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MosarticoApi.Domain.Core", "MosarticoApi.Domain.Core\MosarticoApi.Domain.Core.csproj", "{41ABA238-3372-4965-8087-8AC99CE6559F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosarticoApi.Domain.Services", "Mosartico.Domain.Services\MosarticoApi.Domain.Services.csproj", "{A10AB918-F66A-4470-8CEF-A3778C2AEB44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MosarticoApi.Domain.Services", "Mosartico.Domain.Services\MosarticoApi.Domain.Services.csproj", "{A10AB918-F66A-4470-8CEF-A3778C2AEB44}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 Data", "4.1 Data", "{411E09D4-E947-4478-BA47-2F1E0B3E0432}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosarticoApi.Infrastructure.Data", "MosarticoApi.Infrastructure.Data\MosarticoApi.Infrastructure.Data.csproj", "{387855DD-7828-40DF-B738-498D0E1D2622}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MosarticoApi.Infrastructure.Data", "MosarticoApi.Infrastructure.Data\MosarticoApi.Infrastructure.Data.csproj", "{387855DD-7828-40DF-B738-498D0E1D2622}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 CrossCutting", "4.2 CrossCutting", "{AE39BAAC-1522-4C8C-AA67-CF90E9018BBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosarticoApi.Infrastructure.CrossCutting.IOC", "MosarticoApi.Infrastructure.CrossCutting.IOC\MosarticoApi.Infrastructure.CrossCutting.IOC.csproj", "{DF736517-6572-4E7A-8CD6-2DADC7D82FB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MosarticoApi.Infrastructure.CrossCutting.IOC", "MosarticoApi.Infrastructure.CrossCutting.IOC\MosarticoApi.Infrastructure.CrossCutting.IOC.csproj", "{DF736517-6572-4E7A-8CD6-2DADC7D82FB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosarticoApi.Infrastructure.CrossCutting.Util", "MosarticoApi.Infrastructure.CrossCutting.Util\MosarticoApi.Infrastructure.CrossCutting.Util.csproj", "{DB4A4AA7-472C-44C9-AA12-C0D5ED656413}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MosarticoApi.Infrastructure.CrossCutting.Util", "MosarticoApi.Infrastructure.CrossCutting.Util\MosarticoApi.Infrastructure.CrossCutting.Util.csproj", "{DB4A4AA7-472C-44C9-AA12-C0D5ED656413}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosarticoApi.Infrastructure.Repository", "MosarticoApi.Infrastructure.Repository\MosarticoApi.Infrastructure.Repository.csproj", "{8EF0D3F1-CD22-4C84-A634-D77F9DC12843}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MosarticoApi.Infrastructure.Repository", "MosarticoApi.Infrastructure.Repository\MosarticoApi.Infrastructure.Repository.csproj", "{8EF0D3F1-CD22-4C84-A634-D77F9DC12843}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosarticoApi.Application", "MosarticoApi.Application\MosarticoApi.Application.csproj", "{DF691115-25CB-4888-ADE8-287873311653}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MosarticoApi.Application", "MosarticoApi.Application\MosarticoApi.Application.csproj", "{DF691115-25CB-4888-ADE8-287873311653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosarticoApi.Application.DTO", "MosarticoApi.Application.DTO\MosarticoApi.Application.DTO.csproj", "{55C93E9E-A477-4487-AADA-995178AD9584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MosarticoApi.Application.DTO", "MosarticoApi.Application.DTO\MosarticoApi.Application.DTO.csproj", "{55C93E9E-A477-4487-AADA-995178AD9584}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F37D5499-64CD-47E2-9ED8-5E84B673B725}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{55C93E9E-A477-4487-AADA-995178AD9584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55C93E9E-A477-4487-AADA-995178AD9584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55C93E9E-A477-4487-AADA-995178AD9584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37D5499-64CD-47E2-9ED8-5E84B673B725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37D5499-64CD-47E2-9ED8-5E84B673B725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37D5499-64CD-47E2-9ED8-5E84B673B725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37D5499-64CD-47E2-9ED8-5E84B673B725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

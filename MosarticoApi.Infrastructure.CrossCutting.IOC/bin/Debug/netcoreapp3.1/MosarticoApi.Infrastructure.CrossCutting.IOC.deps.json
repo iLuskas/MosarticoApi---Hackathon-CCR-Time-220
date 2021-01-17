@@ -1281,6 +1281,7 @@
       },
       "MosarticoApi.Domain.Core/1.0.0": {
         "dependencies": {
+          "MosarticoApi.Application.DTO": "1.0.0",
           "MosarticoApi.Domain": "1.0.0"
         },
         "runtime": {
@@ -1299,6 +1300,10 @@
         }
       },
       "MosarticoApi.Infrastructure.CrossCutting.Util/1.0.0": {
+        "dependencies": {
+          "MosarticoApi.Domain": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "6.8.0"
+        },
         "runtime": {
           "MosarticoApi.Infrastructure.CrossCutting.Util.dll": {}
         }

@@ -91,6 +91,11 @@
         }
       },
       "System.Security.Cryptography.Cng/4.5.0": {},
+      "MosarticoApi.Application.DTO/1.0.0": {
+        "runtime": {
+          "MosarticoApi.Application.DTO.dll": {}
+        }
+      },
       "MosarticoApi.Domain/1.0.0": {
         "runtime": {
           "MosarticoApi.Domain.dll": {}
@@ -98,6 +103,7 @@
       },
       "MosarticoApi.Domain.Core/1.0.0": {
         "dependencies": {
+          "MosarticoApi.Application.DTO": "1.0.0",
           "MosarticoApi.Domain": "1.0.0"
         },
         "runtime": {
@@ -105,6 +111,10 @@
         }
       },
       "MosarticoApi.Infrastructure.CrossCutting.Util/1.0.0": {
+        "dependencies": {
+          "MosarticoApi.Domain": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "6.8.0"
+        },
         "runtime": {
           "MosarticoApi.Infrastructure.CrossCutting.Util.dll": {}
         }
@@ -179,6 +189,11 @@
       "sha512": "sha512-WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
       "path": "system.security.cryptography.cng/4.5.0",
       "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    },
+    "MosarticoApi.Application.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "MosarticoApi.Domain/1.0.0": {
       "type": "project",
