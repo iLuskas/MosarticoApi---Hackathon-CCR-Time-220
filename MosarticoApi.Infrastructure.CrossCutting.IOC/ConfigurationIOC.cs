@@ -1,4 +1,6 @@
 ﻿using Autofac;
+using MosarticoApi.Application.Interface;
+using MosarticoApi.Application.Service;
 using MosarticoApi.Domain.Core.Interfaces.Repositorys;
 using MosarticoApi.Domain.Core.Interfaces.Services;
 using MosarticoApi.Domain.Services.Services;
@@ -21,8 +23,8 @@ namespace MosarticoApi.Infrastruture.CrossCutting.IOC
             builder.RegisterType<ApplicationServiceEndereco>().As<IApplicationServiceEndereco>();
             builder.RegisterType<ApplicationServiceTelefone>().As<IApplicationServiceTelefone>();
             builder.RegisterType<ApplicationServicePerfil>().As<IApplicationServicePerfil>();
-            builder.RegisterType<ApplicationServiceTipoArte>().As<IApplicationServiceTipoArte>();
-            builder.RegisterType<ApplicationServiceImagemArte>().As<IApplicationServiceImagemArte>();
+            builder.RegisterType<ApplicationServiceOng>().As<IApplicationServiceOng>();
+            builder.RegisterType<ApplicationServiceOficina>().As<IApplicationServiceOficina>();
             #endregion
 
             #region IOC Services
@@ -32,7 +34,9 @@ namespace MosarticoApi.Infrastruture.CrossCutting.IOC
             builder.RegisterType<ServiceTelefone>().As<IServiceTelefone>();
             builder.RegisterType<ServicePerfil>().As<IServicePerfil>();
             builder.RegisterType<ServiceTipoArte>().As<IServiceTipoArte>();
-            builder.RegisterType<ServiceImagemArte>().As<IServiceImagemArte>();
+            builder.RegisterType<ServiceEmailSender>().As<IEmailSender>();
+            builder.RegisterType<ServiceOficina>().As<IServiceOficina>();
+            builder.RegisterType<ServiceOng>().As<IServiceOng>();
             #endregion
 
             #region IOC Repositorys SQL
@@ -43,6 +47,8 @@ namespace MosarticoApi.Infrastruture.CrossCutting.IOC
             builder.RegisterType<RepositoryPerfil>().As<IRepositoryPerfil>();
             builder.RegisterType<RepositoryTipoArte>().As<IRepositoryTipoArte>();
             builder.RegisterType<RepositoryImagemArte>().As<IRepositoryImagemArte>();
+            builder.RegisterType<RepositoryOng>().As<IRepositoryOng>();
+            builder.RegisterType<RepositoryOficina>().As<IRepositoryOficina>();
             #endregion
 
             #endregion

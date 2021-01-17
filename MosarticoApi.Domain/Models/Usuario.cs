@@ -26,6 +26,7 @@ namespace MosarticoApi.Domain.Models
         public virtual List<Endereco> Enderecos{ get; set; }
         public virtual List<Telefone> Telefones { get; set; }
         public virtual List<Arte> Artes { get; set; }
+        public virtual List<UsuarioOficina> UsuarioOficinas { get; set; }
 
     }
 }

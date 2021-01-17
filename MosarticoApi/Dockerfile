@@ -20,3 +20,7 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "MosarticoApi.dll"]
+
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
+ENV PATH $PATH:/root/.dotnet/tools
+RUN dotnet tool install -g dotnet-ef --version 3.1.1

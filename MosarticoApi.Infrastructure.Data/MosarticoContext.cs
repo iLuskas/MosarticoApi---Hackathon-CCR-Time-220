@@ -24,6 +24,10 @@ namespace MosarticoApi.Infrastructure.Data
         public DbSet<Arte> Artes { get; set; }
         public DbSet<TipoArte> TipoArtes { get; set; }
         public DbSet<ImagemArte> ImagemArtes { get; set; }
+        public DbSet<Ong> Ongs { get; set; }
+        public DbSet<ImagemOng> ImagemOngs { get; set; }
+        public DbSet<Oficinas> Oficinas { get; set; }
+        public DbSet<ImagemOficina> ImagemOficinas { get; set; }
 
         public IDbContextTransaction InitTransacao()
         {
@@ -99,7 +103,10 @@ namespace MosarticoApi.Infrastructure.Data
                     new Perfil(){Id=3,Tipo="Empresa"}
                 });
 
-            modelBuilder.Entity<Arte>().ToTable("Cad_Arte");
+            modelBuilder.Entity<Arte>().ToTable("Cad_Arte")
+                .HasMany(e => e.ImagemArte)
+                .WithOne(e => e.Arte)
+                .OnDelete(DeleteBehavior.Cascade);
           
             modelBuilder.Entity<TipoArte>().ToTable("Cad_TipoArte")
                 .HasData(new List<TipoArte>() {
@@ -111,6 +118,16 @@ namespace MosarticoApi.Infrastructure.Data
                     new TipoArte(){Id=6,Tipo="Literatura"},
                     new TipoArte(){Id=7,Tipo="Cinema"},
                 });
+
+            modelBuilder.Entity<Ong>().ToTable("Cad_Ong")
+                .HasMany(e => e.ImagensOng)
+                .WithOne(e => e.Ong)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Oficinas>().ToTable("Cad_Oficiona")
+                .HasMany(e => e.ImagensOficina)
+                .WithOne(e => e.Oficinas)
+                .OnDelete(DeleteBehavior.Cascade);
 
             base.OnModelCreating(modelBuilder);
         }

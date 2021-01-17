@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace MosarticoApi.Domain.Models
@@ -14,6 +15,6 @@ namespace MosarticoApi.Domain.Models
         public DateTime DataCricao { get; set; }
         public int TipoArteId { get; set; }
         public TipoArte TipoArte { get; set; }
-        public virtual ImagemArte ImagemArte { get; set; }
+        public virtual List<ImagemArte> ImagemArte { get; set; }
     }
 }

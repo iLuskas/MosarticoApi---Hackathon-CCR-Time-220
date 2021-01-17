@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eorizpH30Fezr8e/gCpr0RFvispuUgjK9Wp1/YKdOIQI/CFzjYdFFPsvlkFKZicrnBMrdxJwEcfhkXzPHtv1MQ==",
+  "dgSpecHash": "DrhzFrDJa5opg/n4UFrsC8WG0A+g1+97FXh64xCnFJ38kukDKwtx3p44IYymiYTjML3HZw1VBf4NHhcvxjOODg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application\\MosarticoApi.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucaum-PC\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Lucaum-PC\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Lucaum-PC\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

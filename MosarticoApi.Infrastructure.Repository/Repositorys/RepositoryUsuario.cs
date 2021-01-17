@@ -20,7 +20,15 @@ namespace MosarticoApi.Infrastructure.Repository.Repositorys
         public IEnumerable<Usuario> GetAllUsuario()
         {
             IQueryable<Usuario> query = _mosarticoContext.Usuarios
-                .Include(f => f.Perfil);
+                .Include(u => u.Perfil)
+                .Include(u => u.Enderecos)
+                .Include(u => u.Telefones)
+                .Include(u => u.Artes)
+                    .ThenInclude(a => a.ImagemArte)
+                .Include(u => u.Artes)
+                    .ThenInclude(a => a.TipoArte)
+                .Include(u => u.UsuarioOficinas)
+                    .ThenInclude(uf => uf.Oficinas);
 
             return query.AsNoTracking().OrderByDescending(u => u.Id).ToList();
         }
@@ -28,7 +36,15 @@ namespace MosarticoApi.Infrastructure.Repository.Repositorys
         public Usuario GetUserByUsernameAndPass(Usuario usuario)
         {
             IQueryable<Usuario> query = _mosarticoContext.Usuarios
-                .Include(f => f.Perfil);
+                .Include(f => f.Perfil)
+                .Include(u => u.Enderecos)
+                .Include(u => u.Telefones)
+                .Include(u => u.Artes)
+                    .ThenInclude(a => a.ImagemArte)
+                .Include(u => u.Artes)
+                    .ThenInclude(a => a.TipoArte)
+                .Include(u => u.UsuarioOficinas)
+                    .ThenInclude(uf => uf.Oficinas);
 
             return query.AsNoTracking().OrderByDescending(u => u.Id)
                                        .Where(user => user.Login.ToLower() == usuario.Login.ToLower() && user.Senha == usuario.Senha).FirstOrDefault();
@@ -37,7 +53,15 @@ namespace MosarticoApi.Infrastructure.Repository.Repositorys
         public Usuario getUsuarioByEmail(string email)
         {
             IQueryable<Usuario> query = _mosarticoContext.Usuarios
-                .Include(f => f.Perfil);
+                .Include(f => f.Perfil)
+                .Include(u => u.Enderecos)
+                .Include(u => u.Telefones)
+                .Include(u => u.Artes)
+                    .ThenInclude(a => a.ImagemArte)
+                .Include(u => u.Artes)
+                    .ThenInclude(a => a.TipoArte)
+                .Include(u => u.UsuarioOficinas)
+                    .ThenInclude(uf => uf.Oficinas);
 
             return query.AsNoTracking().OrderByDescending(u => u.Id)
                                        .Where(user => user.Email.ToLower() == email.ToLower()).FirstOrDefault();

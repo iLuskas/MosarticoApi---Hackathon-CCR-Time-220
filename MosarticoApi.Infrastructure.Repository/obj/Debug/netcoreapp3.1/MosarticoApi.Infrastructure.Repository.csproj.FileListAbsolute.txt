@@ -1,0 +1,16 @@
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.Repository.deps.json
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.Repository.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.Repository.pdb
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\MosarticoApi.Domain.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.Data.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.pdb
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.Data.pdb
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\bin\Debug\netcoreapp3.1\MosarticoApi.Domain.pdb
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.Repository.csprojAssemblyReference.cache
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.Repository.AssemblyInfoInputs.cache
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.Repository.AssemblyInfo.cs
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.Repository.csproj.CopyComplete
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.Repository.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.Repository\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.Repository.pdb
