@@ -7,6 +7,7 @@ using MosarticoApi.Domain.Models;
 using MosarticoApi.Domain.Models.Helpers;
 using System;
 using System.Collections.Generic;
+using Util;
 
 namespace MosarticoApi.Application.Service
 {
@@ -60,12 +61,25 @@ namespace MosarticoApi.Application.Service
             return _mapper.Map<UsuarioDTO>(objEntity);
         }
 
-        public UsuarioDTO GetUserByUserAndPass(UsuarioDTO usuarioDTO)
+        public ModeloRetornoLoginDTO GetUserByUserAndPass(ModeloLogarDTO usuarioDTO)
         {
-            var objEntity = _mapper.Map<Usuario>(usuarioDTO);
+            var objEntity = new Usuario() { Login = usuarioDTO.Login, Senha = Utilidades.GerarHashMd5(usuarioDTO.Senha) };
 
             var obj = _serviceUsuario.GetUserByUsernameAndPass(objEntity);
-            return _mapper.Map<UsuarioDTO>(obj);
+            
+            var objMap = _mapper.Map<UsuarioDTO>(obj);
+
+            if (objMap == null)
+                throw new ArgumentNullException("Usuário não foi encontrato.");
+
+            var token = Utilidades.GenerateToken(obj);
+
+            return new ModeloRetornoLoginDTO()
+            {
+                Login = objMap.Login,
+                UsuarioId = objMap.Id,
+                Token = token
+            };
         }
 
         public void Remove(UsuarioDTO usuarioDTO)

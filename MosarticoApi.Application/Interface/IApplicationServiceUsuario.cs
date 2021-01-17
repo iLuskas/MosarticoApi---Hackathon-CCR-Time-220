@@ -9,7 +9,7 @@ namespace MosarticoApi.Application.Interface
         void Add(UsuarioDTO usuarioDTO);
         UsuarioDTO GetById(int id);
         IEnumerable<UsuarioDTO> GetAllUsuario();
-        UsuarioDTO GetUserByUserAndPass(UsuarioDTO usuarioDTO);
+        ModeloRetornoLoginDTO GetUserByUserAndPass(ModeloLogarDTO usuarioDTO);
         bool ResetSenhaUsuario(string email);
         void AlterarSenhaUsuario(ModeloAlterarSenhaUserDTO modeloAlterarSenhaUserDTO);
         void Update(UsuarioDTO usuarioDTO);

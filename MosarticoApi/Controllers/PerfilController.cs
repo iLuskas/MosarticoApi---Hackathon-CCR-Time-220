@@ -26,7 +26,7 @@ namespace MosarticoApi.Controllers
         {
             try
             {
-                return Ok(_applicationServicePerfil.GetAll());
+                return Ok(_applicationServicePerfil.GetAllPerfil());
             }
             catch (Exception ex)
             {

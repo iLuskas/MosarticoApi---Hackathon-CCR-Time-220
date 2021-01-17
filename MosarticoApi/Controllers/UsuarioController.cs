@@ -26,6 +26,7 @@ namespace MosarticoApi.Controllers
         // Get All Usuarios
         //</summary>
         [HttpGet]
+        [Authorize]
         public ActionResult<IEnumerable<UsuarioDTO>> Get()
         {
             try
@@ -44,6 +45,7 @@ namespace MosarticoApi.Controllers
         // GetById Usuario
         //</summary>
         [HttpGet("{id}")]
+        [Authorize]
         public ActionResult<UsuarioDTO> Get(int id)
         {
             try
@@ -62,6 +64,7 @@ namespace MosarticoApi.Controllers
         // Recover password Usuario
         //</summary>
         [HttpPost("recuperarSenha")]
+        [Authorize]
         public ActionResult recuperarSenha([FromQuery] string email)
         {
             try
@@ -105,6 +108,7 @@ namespace MosarticoApi.Controllers
         // Insert Usuario
         //</summary>
         [HttpPost]
+        [Authorize]
         public ActionResult Post([FromBody] UsuarioDTO usuarioDTO)
         {
             try
@@ -126,7 +130,7 @@ namespace MosarticoApi.Controllers
         // Login Usuario
         //</summary>
         [HttpPost("Login")]
-        public ActionResult Login([FromBody] UsuarioDTO usuarioDTO)
+        public ActionResult<ModeloRetornoLoginDTO> Login([FromBody] ModeloLogarDTO usuarioDTO)
         {
             try
             {
@@ -136,10 +140,10 @@ namespace MosarticoApi.Controllers
                 return Ok(_applicationServiceUsuario.GetUserByUserAndPass(usuarioDTO));
 
             }
-            catch (Exception)
+            catch (Exception e)
             {
 
-                return StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou - método Login");
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Banco de dados Falhou - método Login - Mensagem: {e.Message}");
             }
         }
 
@@ -147,6 +151,7 @@ namespace MosarticoApi.Controllers
         // Update Usuario
         //</summary>
         [HttpPut]
+        [Authorize]
         public ActionResult Put([FromBody] UsuarioDTO usuarioDTO)
         {
             try
@@ -167,6 +172,7 @@ namespace MosarticoApi.Controllers
         // Delete Usuario
         //</summary>
         [HttpDelete]
+        [Authorize]
         public ActionResult Delete([FromBody] UsuarioDTO usuarioDTO)
         {
             try

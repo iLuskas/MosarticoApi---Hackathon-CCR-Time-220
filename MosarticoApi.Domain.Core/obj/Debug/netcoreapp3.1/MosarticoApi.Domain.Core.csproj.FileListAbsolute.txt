@@ -10,3 +10,5 @@ C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\obj\Debug\
 C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\obj\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.csproj.CopyComplete
 C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\obj\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.dll
 C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\obj\Debug\netcoreapp3.1\MosarticoApi.Domain.Core.pdb
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\bin\Debug\netcoreapp3.1\MosarticoApi.Application.DTO.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Domain.Core\bin\Debug\netcoreapp3.1\MosarticoApi.Application.DTO.pdb

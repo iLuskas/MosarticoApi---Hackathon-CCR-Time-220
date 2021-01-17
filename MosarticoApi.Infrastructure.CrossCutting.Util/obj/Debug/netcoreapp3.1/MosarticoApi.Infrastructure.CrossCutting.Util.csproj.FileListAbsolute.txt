@@ -7,3 +7,6 @@ C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCu
 C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.csproj.CoreCompileInputs.cache
 C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.dll
 C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.pdb
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\bin\Debug\netcoreapp3.1\MosarticoApi.Domain.dll
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\bin\Debug\netcoreapp3.1\MosarticoApi.Domain.pdb
+C:\Users\Lucaum-PC\source\repos\MosarticoApi\MosarticoApi.Infrastructure.CrossCutting.Util\obj\Debug\netcoreapp3.1\MosarticoApi.Infrastructure.CrossCutting.Util.csproj.CopyComplete

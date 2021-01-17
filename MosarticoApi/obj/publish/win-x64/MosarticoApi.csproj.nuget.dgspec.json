@@ -1,0 +1,830 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi\\MosarticoApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\Mosartico.Domain.Services\\MosarticoApi.Domain.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\Mosartico.Domain.Services\\MosarticoApi.Domain.Services.csproj",
+        "projectName": "MosarticoApi.Domain.Services",
+        "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\Mosartico.Domain.Services\\MosarticoApi.Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\Lucaum-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\Mosartico.Domain.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lucaum-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj"
+              },
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.Util\\MosarticoApi.Infrastructure.CrossCutting.Util.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.Util\\MosarticoApi.Infrastructure.CrossCutting.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application.DTO\\MosarticoApi.Application.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application.DTO\\MosarticoApi.Application.DTO.csproj",
+        "projectName": "MosarticoApi.Application.DTO",
+        "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application.DTO\\MosarticoApi.Application.DTO.csproj",
+        "packagesPath": "C:\\Users\\Lucaum-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lucaum-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application\\MosarticoApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application\\MosarticoApi.Application.csproj",
+        "projectName": "MosarticoApi.Application",
+        "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application\\MosarticoApi.Application.csproj",
+        "packagesPath": "C:\\Users\\Lucaum-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lucaum-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application.DTO\\MosarticoApi.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application.DTO\\MosarticoApi.Application.DTO.csproj"
+              },
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj"
+              },
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj"
+              },
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.Util\\MosarticoApi.Infrastructure.CrossCutting.Util.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.Util\\MosarticoApi.Infrastructure.CrossCutting.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj",
+        "projectName": "MosarticoApi.Domain.Core",
+        "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Lucaum-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lucaum-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application.DTO\\MosarticoApi.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application.DTO\\MosarticoApi.Application.DTO.csproj"
+              },
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj",
+        "projectName": "MosarticoApi.Domain",
+        "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lucaum-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lucaum-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.IOC\\MosarticoApi.Infrastructure.CrossCutting.IOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.IOC\\MosarticoApi.Infrastructure.CrossCutting.IOC.csproj",
+        "projectName": "MosarticoApi.Infrastructure.CrossCutting.IOC",
+        "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.IOC\\MosarticoApi.Infrastructure.CrossCutting.IOC.csproj",
+        "packagesPath": "C:\\Users\\Lucaum-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.IOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lucaum-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\Mosartico.Domain.Services\\MosarticoApi.Domain.Services.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\Mosartico.Domain.Services\\MosarticoApi.Domain.Services.csproj"
+              },
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application\\MosarticoApi.Application.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application\\MosarticoApi.Application.csproj"
+              },
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.Repository\\MosarticoApi.Infrastructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.Repository\\MosarticoApi.Infrastructure.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.Util\\MosarticoApi.Infrastructure.CrossCutting.Util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.Util\\MosarticoApi.Infrastructure.CrossCutting.Util.csproj",
+        "projectName": "MosarticoApi.Infrastructure.CrossCutting.Util",
+        "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.Util\\MosarticoApi.Infrastructure.CrossCutting.Util.csproj",
+        "packagesPath": "C:\\Users\\Lucaum-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.Util\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lucaum-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.Data\\MosarticoApi.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.Data\\MosarticoApi.Infrastructure.Data.csproj",
+        "projectName": "MosarticoApi.Infrastructure.Data",
+        "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.Data\\MosarticoApi.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\Lucaum-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lucaum-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain\\MosarticoApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.Repository\\MosarticoApi.Infrastructure.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.Repository\\MosarticoApi.Infrastructure.Repository.csproj",
+        "projectName": "MosarticoApi.Infrastructure.Repository",
+        "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.Repository\\MosarticoApi.Infrastructure.Repository.csproj",
+        "packagesPath": "C:\\Users\\Lucaum-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lucaum-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Domain.Core\\MosarticoApi.Domain.Core.csproj"
+              },
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.Data\\MosarticoApi.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.Data\\MosarticoApi.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi\\MosarticoApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi\\MosarticoApi.csproj",
+        "projectName": "MosarticoApi",
+        "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi\\MosarticoApi.csproj",
+        "packagesPath": "C:\\Users\\Lucaum-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi\\obj\\publish\\win-x64\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lucaum-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application\\MosarticoApi.Application.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Application\\MosarticoApi.Application.csproj"
+              },
+              "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.IOC\\MosarticoApi.Infrastructure.CrossCutting.IOC.csproj": {
+                "projectPath": "C:\\Users\\Lucaum-PC\\source\\repos\\MosarticoApi\\MosarticoApi.Infrastructure.CrossCutting.IOC\\MosarticoApi.Infrastructure.CrossCutting.IOC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.Diagnostics.Tools": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

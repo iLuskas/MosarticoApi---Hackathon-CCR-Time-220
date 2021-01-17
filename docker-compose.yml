@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  mosarticoapi:
+    container_name: mosarticoapi
+    image: ${DOCKER_REGISTRY-}mosarticoapi
+    build:
+      context: .
+      dockerfile: MosarticoApi/Dockerfile

@@ -199,6 +199,10 @@ namespace MosarticoApi.Infrastructure.Data.Migrations
                         .HasMaxLength(150)
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Telefone")
+                        .HasMaxLength(14)
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
 
                     b.ToTable("Cad_Ong");
