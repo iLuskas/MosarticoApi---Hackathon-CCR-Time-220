@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MosarticoApi.Application.DTO.DTOs;
@@ -22,6 +23,7 @@ namespace MosarticoApi.Controllers
         // Get All Perfil
         //</summary>
         [HttpGet]
+        [Authorize]
         public ActionResult<IEnumerable<PerfilDTO>> Get()
         {
             try
@@ -40,6 +42,7 @@ namespace MosarticoApi.Controllers
         // GetById Perfil
         //</summary>
         [HttpGet("{id}")]
+        [Authorize]
         public ActionResult<PerfilDTO> Get(int id)
         {
             try
@@ -58,6 +61,7 @@ namespace MosarticoApi.Controllers
         // Insert new Perfil
         //</summary>
         [HttpPost]
+        [Authorize]
         public ActionResult Post([FromBody] PerfilDTO perfilDTO)
         {
             try
@@ -79,6 +83,7 @@ namespace MosarticoApi.Controllers
         // Update Perfil
         //</summary>
         [HttpPut]
+        [Authorize]
         public ActionResult Put([FromBody] PerfilDTO perfilDTO)
         {
             try
@@ -100,6 +105,7 @@ namespace MosarticoApi.Controllers
         // Delete Perfil
         //</summary>
         [HttpDelete]
+        [Authorize]
         public ActionResult Delete([FromBody] PerfilDTO perfilDTO)
         {
             try
